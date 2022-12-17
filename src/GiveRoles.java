@@ -23,8 +23,8 @@ public class GiveRoles {
             }
         }
 
-        youngest.setRole("Junior");
-        oldest.setRole("Senior");
+        youngest.role = "Junior";
+        oldest.role = "Senior";
 
 
         System.out.println("The " + oldest.role + " in the group is " + oldest.name + " " +oldest.age + " years old");
